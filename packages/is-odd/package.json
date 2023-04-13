@@ -2,14 +2,15 @@
   "name": "is-odd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc index.ts --outDir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "is-even": "^1.0.0"
+    "is-even": "*"
   }
 }
